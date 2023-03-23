@@ -1,2 +1,2 @@
 # expressjapa
-Repo for expressjapa web files
+Repo for expressjapa web files. An immigration advisory website
