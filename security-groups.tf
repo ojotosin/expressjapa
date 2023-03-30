@@ -128,7 +128,7 @@ resource "aws_security_group" "DB_sg" {
 }
 
 # creates the EFS security group
-resource "aws_security_group" "DB_sg" {
+resource "aws_security_group" "EFS_sg" {
   name               = "EFS_sg"
   description        = "enable access to EFS on port 2049"
   vpc_id             = aws_vpc.vpc.id
